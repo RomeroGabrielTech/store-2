@@ -8,11 +8,13 @@ import { HeaderComponent } from './share/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import {HttpClientModule} from '@angular/common/http';
+import { CartComponent } from './share/components/header/cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
